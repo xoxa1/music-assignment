@@ -1,0 +1,102 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0f8ff, #ffe4e1);
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: #282c34;
+    color: #fff;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px #ff6f61;
+}
+
+header h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+    color: #ff6f61;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h3 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background: #e8f4fa;
+    padding: 1rem;
+    border-radius: 8px;
+    position: relative;
+}
+
+section p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: -1;
+    transform: skewY(-2deg);
+    border-radius: 8px;
+}
+
+section p:nth-child(even) {
+    background: #f8e8fa;
+}
+
+p {
+    white-space: pre-wrap;
+}
+
+.section-love {
+    color: #ff1493;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #ff6f61;
+}
+
+.section-confused {
+    color: #ff4500;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #ffa07a;
+}
+
+.section-devotion {
+    color: #1e90ff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #87cefa;
+}
